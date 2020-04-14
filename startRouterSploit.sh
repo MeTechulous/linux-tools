@@ -1,2 +1,2 @@
-cd /git/routerSploit || echo "routerSploit not found..." & exit
+cd /git/routerSploit
 sudo python3 rsf.py

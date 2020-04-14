@@ -1,4 +1,4 @@
-cd /git || echo "/git not found..." & exit
+cd /git
 
 echo Updating: attack_monitor
 cd attack_monitor
