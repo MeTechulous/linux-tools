@@ -1,25 +1,25 @@
-cd /git
+cd /git || echo "/git not found..." & exit
 
-echo Updating - attack_monitor
+echo Updating: attack_monitor
 cd attack_monitor
 sudo git pull && cd ..
 
-echo Updating - empire
+echo Updating: empire
 cd empire
 sudo git pull && cd ..
 
-echo Updating - masscan
+echo Updating: masscan
 cd masscan
 sudo git pull && cd ..
 
-echo Updating - mimikatz
+echo Updating: mimikatz
 cd mimikatz
 sudo git pull && cd ..
 
-echo Updating - pacu
+echo Updating: pacu
 cd pacu
 sudo git pull && cd ..
 
-echo Updating - protonvpn-cli-ng
+echo Updating: protonvpn-cli-ng
 cd protonvpn-cli-ng
 sudo git pull && cd ..

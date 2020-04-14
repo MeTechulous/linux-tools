@@ -1,4 +1,4 @@
-sudo apt-get clean && sudo apt-get update
+sudo apt clean && sudo apt update
 sudo apt -y full-upgrade && sudo apt -y autoremove
 sudo apt install python3.7
 sudo apt install python2.7
@@ -6,6 +6,7 @@ sudo apt install python3-pip
 
 sudo mkdir /git
 cd /git
+
 sudo git clone https://github.com/RhinoSecurityLabs/pacu.git pacu
 cd pacu
 sudo bash install.sh
