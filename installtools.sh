@@ -3,6 +3,7 @@ sudo apt -y full-upgrade && sudo apt -y autoremove
 sudo apt install python3.7
 sudo apt install python2.7
 sudo apt install python3-pip
+sudo apt install tree
 
 sudo mkdir /git
 cd /git
