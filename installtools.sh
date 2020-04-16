@@ -4,6 +4,7 @@ sudo apt install python3.7
 sudo apt install python2.7
 sudo apt install python3-pip
 sudo apt install tree
+sudo apt install terminator
 
 sudo mkdir /git
 cd /git
