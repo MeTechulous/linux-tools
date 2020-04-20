@@ -9,6 +9,8 @@ sudo apt install terminator
 sudo mkdir /git
 cd /git
 
+sudo git clone https://github.com/byt3bl33d3r/CrackMapExec.git CrackMapExec
+
 sudo git clone https://github.com/RhinoSecurityLabs/pacu.git pacu
 cd pacu
 sudo bash install.sh
