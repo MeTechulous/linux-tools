@@ -5,6 +5,7 @@ sudo apt install python2.7
 sudo apt install python3-pip
 sudo apt install tree
 sudo apt install terminator
+sudo pip3 install protonvpn-cli
 
 sudo mkdir /git
 cd /git
