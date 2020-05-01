@@ -3,6 +3,7 @@ sudo apt -y full-upgrade && sudo apt -y autoremove
 sudo apt install python3.7
 sudo apt install python2.7
 sudo apt install python3-pip
+sudo pip install --upgrade pip
 sudo apt install tree
 sudo apt install terminator
 sudo pip3 install protonvpn-cli
@@ -11,6 +12,11 @@ sudo mkdir /git
 cd /git
 
 sudo git clone https://github.com/byt3bl33d3r/CrackMapExec.git CrackMapExec
+
+sudo git clone https://github.com/SecureAuthCorp/impacket impacket
+cd impacket
+sudo pip install .
+cd ..
 
 sudo git clone https://github.com/RhinoSecurityLabs/pacu.git pacu
 cd pacu

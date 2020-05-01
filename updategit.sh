@@ -23,3 +23,7 @@ sudo git pull && cd ..
 echo Updating: protonvpn-cli-ng
 cd protonvpn-cli-ng
 sudo git pull && cd ..
+
+echo Updating: impacket
+cd impacket
+sudo git pull && cd ..
