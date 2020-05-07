@@ -20,6 +20,7 @@ cd ..
 
 sudo git clone https://github.com/RhinoSecurityLabs/pacu.git pacu
 cd pacu
+sudo pip3 install -r requirements.txt
 sudo bash install.sh
 cd ..
 
