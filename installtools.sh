@@ -13,6 +13,8 @@ cd /git
 
 sudo git clone https://github.com/byt3bl33d3r/CrackMapExec.git CrackMapExec
 
+sudo git clone https://github.com/swisskyrepo/PayloadsAllTheThings res-PayloadsAllTheThings
+
 sudo git clone https://github.com/SecureAuthCorp/impacket impacket
 cd impacket
 sudo pip install .
