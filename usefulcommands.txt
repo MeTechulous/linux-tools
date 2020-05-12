@@ -9,9 +9,18 @@
 	# 'x' after username means password is encrypted and stored in /etc/shadow
 
 
-~~~~~~~~~ CRON MANAGEMENT ~~~~~~~~~
+~~~~~~~~~ LINUX KERNAL MANAGEMENT ~~~~~~~~~
 
+# List All Linux Kernals
+	dpkg -l linux-image\* | grep ^ii
+# Remove Old Kernals
+	sudo apt-get purge [old_kernal]
+# Manually remove Old Kernal Versions
+	cd /lib/modules
+	sudo rm -r [module]
 	
+
+~~~~~~~~~ CRON MANAGEMENT ~~~~~~~~~
 
 	crontab -e
 	SHELL=/bin/bash
