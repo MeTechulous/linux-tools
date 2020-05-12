@@ -25,6 +25,8 @@ sudo mkdir /git/aws
 
 cd /git
 sudo git clone https://github.com/MeTechulous/linux-tools mt-tools
+cd /git/mt-tools/scripts
+sudo chmod u=rwx,go=rx *
 
 # --- INSTALLATION & DOWNLOADS ---
 
