@@ -12,6 +12,7 @@ sudo pip install --upgrade pip
 sudo apt install tree
 sudo apt install terminator
 sudo pip3 install protonvpn-cli
+sudo apt install anacron
 
 # --- DIRECTORIES ---
 
