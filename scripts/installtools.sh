@@ -2,17 +2,17 @@
 
 sudo apt clean && sudo apt update
 sudo apt -y full-upgrade && sudo apt -y autoremove
-sudo apt install python3.7
-sudo apt install python2.7
-sudo apt install python3-pip
-sudo pip install --upgrade pip
+sudo apt -y install python3.7
+sudo apt -y install python2.7
+sudo apt -y install python3-pip
+sudo pip -y install --upgrade pip
 
 # --- OPTIONAL TOOLS ---
 
-sudo apt install tree
-sudo apt install terminator
-sudo pip3 install protonvpn-cli
-sudo apt install anacron
+sudo apt -y install tree
+sudo apt -y install terminator
+sudo pip3 -y install protonvpn-cli
+sudo apt -y install anacron
 
 # --- DIRECTORIES ---
 
@@ -83,8 +83,9 @@ sudo ./install.py
 cd /git/tools
 sudo git clone https://www.github.com/threat9/routersploit routersploit
 cd routersploit
+
 sudo python3 -m pip install -r requirements.txt
-sudo apt install libglib2.0-dev
+sudo apt -y install libglib2.0-dev
 sudo python3 -m pip install bluepy
 
 
