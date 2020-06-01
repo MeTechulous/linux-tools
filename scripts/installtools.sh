@@ -34,6 +34,11 @@ sudo chmod u=rwx,go=rx *
 cd /git/activeDirectory
 sudo git clone https://github.com/byt3bl33d3r/CrackMapExec.git crackMapExec
 
+cd /git/tools
+sudo git clone https://github.com/EmpireProject/Empire empire
+cd setup
+sudo bash install.sh
+
 cd /git/resources
 sudo git clone https://github.com/swisskyrepo/PayloadsAllTheThings res-PayloadsAllTheThings
 
@@ -52,6 +57,11 @@ sudo git clone https://github.com/lgandx/Responder responder
 
 cd /git/activeDirectory
 sudo git clone https://github.com/gentilkiwi/mimikatz mimikatz
+cd /git/tools/
+sudo git clone https://github.com/gentilkiwi/mimikatz mimikatz
+
+cd /git/tools/
+sudo git clone https://github.com/ProtonVPN/linux-cli protonvpn-cli-ng
 
 cd /git/activeDirectory
 sudo git clone https://github.com/funkandwagnalls/ranger ranger
