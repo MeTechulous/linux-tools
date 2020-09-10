@@ -86,9 +86,9 @@ sudo make
 
 cd /git/tools
 sudo apt install proxychains4
-sudo git clone https://github.com/jm33-m0/massExpConsole.git mec
-cd mec
-sudo ./install.py
+#sudo git clone https://github.com/jm33-m0/massExpConsole.git mec
+#cd mec
+#sudo ./install.py
 
 cd /git/tools
 sudo git clone https://www.github.com/threat9/routersploit routersploit
