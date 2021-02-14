@@ -175,6 +175,16 @@ MAILTO=root
 	load kiwi
 
 
+~~~~~~~~~ ArchLinux ~~~~~~~~~
+
+# Update Image
+	sudo pacman --sync --refresh
+	sudo pacman --sync --needed archlinux-keyring
+	sudo pacman --sync --sysupgrade
+	sudo pacman --sync --refresh --sysupgrade
+	sudo reboot
+
+
 ~~~~~~~~~ MISCELLANEOUS ~~~~~~~~~
 
 # Turn Off Windows Defender
