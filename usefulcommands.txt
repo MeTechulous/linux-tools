@@ -185,6 +185,19 @@ MAILTO=root
 	sudo reboot
 
 
+~~~~~~~~~ HYPER-V ~~~~~~~~~
+
+# Debian - Change Resolution of VM
+	sudo nano /etc/default/grub
+	# Find these lines and append the desired resolution at the end of them:
+		GRUB_CMDLINE_LINUX_DEFAULT=
+			quiet splash video=hyperv_fb:[hor]x[ver]
+		GRUB_CMDLINE_LINUX=
+			quiet splash video=hyperv_fb:[hor]x[ver]
+	sudo update-grub
+	reboot
+
+
 ~~~~~~~~~ MISCELLANEOUS ~~~~~~~~~
 
 # Turn Off Windows Defender
